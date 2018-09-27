@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:clipToPadding="false" android:orientation="vertical" android:padding="16dp">
+    <!-- 通常のボタン -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/normal_button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal Button" />
+    <!-- アイコンのボタン -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/icon_button"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Icon Button"
+        app:icon="@drawable/ic_android_black_24dp"
+        app:iconGravity="textStart"
+        app:iconPadding="16dp"
+        app:iconSize="20dp" />
+    <!-- 外枠のボタン -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/outlined_button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Outlined Button" />
+    <!-- 外枠 + アイコンのボタン -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/outlined_icon_button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Outlined Icon Button"
+        app:icon="@drawable/ic_android_black_24dp"
+        app:iconGravity="textStart"
+        app:iconPadding="16dp" />
+    <!-- 文字のボタン -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/text_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Button" />
+    <!-- 影がないボタン -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/unelavated_button"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unelevated Button" />
+    <!-- 角ばったボタン -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rectangle_button"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetBottom="0dp"
+        android:insetLeft="0dp"
+        android:insetRight="0dp"
+        android:insetTop="0dp"
+        android:text="Normal Button"
+        app:cornerRadius="0dp" />
+</LinearLayout>
