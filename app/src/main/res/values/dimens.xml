@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_cut_corner_size">16dp</dimen>
+    <dimen name="btn_half_cut_corner_size">24dp</dimen>
+    <dimen name="btn_cut_edge_size">8dp</dimen>
+</resources>
